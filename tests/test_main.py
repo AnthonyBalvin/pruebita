@@ -1,6 +1,4 @@
-import pytest
 from src.main import saludar
-
 def test_saludo_con_nombre():
     """Prueba que el saludo funcione con un nombre dado."""
     resultado = saludar("Emilio")
