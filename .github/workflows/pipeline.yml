@@ -63,4 +63,4 @@ jobs:
           context: .
           push: true
           # Nombra la imagen como ghcr.io/TU_USUARIO/TU_REPO:latest
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/anthonybalvin/pruebita:latest
