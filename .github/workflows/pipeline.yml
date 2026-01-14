@@ -27,7 +27,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 📢 VER EL SALUDO EN VIVO
+      - name: VER EL SALUDO EN VIVO
         run: python src/main.py
         env:
           PYTHONPATH: .
